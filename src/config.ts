@@ -1,91 +1,103 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Suhas Paruchuri",
+  title: "Software Engineer",
+  description: "Portfolio website of Suhas Paruchuri",
+  accentColor: "#ffffff",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "paruchurisaisuhas@gmail.com",
+    linkedin: "https://www.linkedin.com/in/saisuhasparuchuri/",
+    github: "https://github.com/suhasparuchuri",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+"I am a software engineer with a passion for building scalable and efficient systems. I am a quick learner and I am always looking for new challenges.",
+  skills: ["C++", "Data Structures & Algorithms", "OOPs", "LLD", "HLD", "Distributed Systems","AI/ML"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Social Media Data Collection Pipeline",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A continuous social media data collection system for Reddit and 4chan, built for large-scale data ingestion and analysis",
+      link: "https://github.com/suhasparuchuri/Social-Media-Data-Collection-Pipeline",
+      skills: ["Python", "Data Engineering", "APIs"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Rubik's Cube Solver",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Models a 3x3 Rubik's Cube using multiple representations (3D array, 1D array, bitboard) and solves it using DFS, BFS, IDDFS, and IDA* with a Corner Pattern Database heuristic",
+      link: "https://github.com/suhasparuchuri/RubiksCubeSolver",
+      skills: ["C++", "Algorithms", "Data Structures"],
     },
     {
-      name: "ExtensionKit",
+      name: "MapReduce",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A MapReduce framework for parallel and scalable processing of large datasets, splitting input data, processing concurrently, and aggregating results efficiently",
+      link: "https://github.com/suhasparuchuri/mapreduce",
+      skills: ["C", "Distributed Systems", "Concurrency"],
+    },
+    {
+      name: "Pac-Man AI",
+      description:
+        "AI agents for Pac-Man implementing search algorithms (DFS, BFS, A*), adversarial search (Minimax, Expectimax), reinforcement learning (Q-Learning), and machine learning (Perceptron)",
+      link: "https://github.com/suhasparuchuri/pacman",
+      skills: ["Python", "AI", "Reinforcement Learning"],
+    },
+    {
+      name: "Expensometer",
+      description:
+        "A web app for tracking income and expenses with voice-powered transaction input using Speechly, featuring charts and Firebase authentication",
+      link: "https://github.com/suhasparuchuri/Expensometer",
+      skills: ["React", "Firebase", "Material UI"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "BizInsights, Fremont, CA",
+      title: "Software Engineer",
+      dateRange: "Jan 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Binghamton University",
+      title: "Research Intern",
+      dateRange: "July 2025 - Dec 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+],
+    },
+    {
+      company: "StarQuest Technologies, Germantown, MD",
+      title: "Software Engineer Intern",
+      dateRange: "July 2024 - May 2025",
+      bullets: [
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Indian Institute of Information Technology Kottayam",
+      title: "Machine Learning Intern",
+      dateRange: "June 2022 - August 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+      ],
+    },
+    {
+      company: "Amazon Machine Learning Summer School",
+      title: "Mentee",
+      dateRange: "July 2022 - August 2022",
+      bullets: [
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Master of Science in Computer Science (Artificial Intelligence Track)",
+      degree: "Binghamton University",
+      dateRange: "2023 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "B.Tech in Computer Science and Engineering",
+      degree: "Indian Institute of Information Technology Kottayam",
+      dateRange: "2019-2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
